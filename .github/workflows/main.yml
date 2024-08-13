@@ -1,9 +1,6 @@
 name: Simple Pipeline Example
 
-on:
-  push:
-    branches:
-    - main
+on: [workflow_dispatch]
     
 jobs:
   my_job:
